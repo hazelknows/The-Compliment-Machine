@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Compliment</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <h1>Your Compliment</h1>
+    <div class="compliment-container">
+        <p id="compliment">Generating compliment...</p>
+    </div>
+    <button onclick="generateCompliment()">Generate New Compliment</button>
+    <input type="text" id="share-link" readonly>
+    <button onclick="copyLink()">Copy Link</button>
+    <br>
+    <button onclick="document.location='index.html'">Back</button>
+</body>
+</html>
