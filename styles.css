@@ -1,42 +1,4 @@
-
-body {
-    font-family: 'Ariel', Sans-Serif;
-    text-align: center;
-    background-color: #fffbf1;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
-}
-
-h1 {
-    color: #ff6b81;
-    font-size: 3em;
-    font-family: 'Ariel', Sans-Serif;
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
-}
-
-button {
-    background-color: #ff6b81;
-    color: white;
-    border: none;
-    padding: 10px 15px;
-    font-size: 18px;
-    cursor: pointer;
-    border-radius: 8px;
-    transition: 0.3s;
-    margin-top: 20px;
-    font-family: 'Handlee', cursive;
-    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
-}
-
-button:hover {
-    background-color: #ff4757;
-}
-
-./* General Styles */
+/* General Styles */
 body {
     font-family: 'Handlee', cursive;
     text-align: center;
